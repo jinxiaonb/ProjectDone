@@ -1,0 +1,57 @@
+#mainFrame {
+	width:1080px;
+	height:1280px;
+	margin:0 auto;
+}
+#mainFrame2 {
+	position:relative;
+	width:1080px;
+	height:960px;
+	margin:0 auto;
+	background:#38393b;
+}
+.showstyle div .allscreen{
+	width:98px;
+	height:38px;
+	line-height:38px;
+	border:1px solid #ddb740;
+	cursor:pointer;
+	color:#ddb740;
+	display:inline-block;
+	text-align:center;
+	background:#130E08;
+	border-radius:5px;
+	font-size:14px;
+}
+.iframecontent{
+	position:relative;
+	width:1000px;
+	height:700px;
+	background:#444444;
+	margin:0 auto;
+	border:0px;
+	cursor:pointer;
+}
+#innerFrame {
+	position:relative;
+	width:1000px;
+	height:700px;
+	border:0px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

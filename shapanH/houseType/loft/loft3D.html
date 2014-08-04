@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>网络沙盘</title>
+<link rel="stylesheet" type="text/css" href="../../css/common.css" />
+<link rel="stylesheet" type="text/css" href="../../css/common3d.css" />
+</head>
+<body>
+<div id="mainFrame">
+  <p><img src="../../image/header/line.png" alt="" /></p>
+  <div id="header">
+  	<ul>
+    	<li><a href="../../index.html">首页</a></li>
+        <li class="selected"><a href="#">户型</a></li>
+        <li><a href="../../shaPan/shapan/shapanFlat.html">沙盘</a></li>
+    </ul>
+  </div>
+  <p><img src="../../image/header/line.png" alt="" /></p>
+  <div id="apDiv1"><img src="../../image/header/logo.png"></div>
+  <div id="header2">
+    <div id="apDiv2">
+    	<ul>
+        	<li><a href="../one/oneFlat.html"><img src="../../image/unit/A.png"></a></li>
+        	<li><a href="../three/threeFlat.html"><img src="../../image/unit/B.png"></a></li>
+        	<li class="patternSelected"><a href="loftFlat.html"><img src="../../image/unit/C.png"></a></li>
+        </ul>
+    </div>
+  </div>
+  <div id="mainFrame2">
+   	<div class="showmodel">
+    	<ul>
+        	<li><a href="loftFlat.html"><img src="../../image/unit/flat.png" alt="平面图"  /></a></li>
+        	<li><a href="loftEffect.html"><img src="../../image/unit/effect.png" alt="效果图"  /></a></li>
+            <li><a href="loftView.html"><img src="../../image/unit/view.png" alt="户型观赏"  /></a></li>
+            <li class="last-child viewSelected"><a href="loft3D.html"><img src="../../image/unit/3d.png" alt="3D观赏" /></a></li>
+        </ul>
+    </div>
+    <div class="showstyle">
+    	<div class="stylechoice">
+        	<span class="simpleEuroStyle styleSelected">极简风格</span>
+            <span class="chineseStyle">田园风格</span>
+        </div>
+        <div class="showscreen">
+        	<a class="allscreen"  href="#">全屏观赏</a>
+        </div>
+    </div>
+    <div class="iframecontent"><iframe id="innerFrame" src="#"></iframe></div>
+  </div>
+</div>
+</body>
+<script type="text/javascript" src="../../js/jquery.min.js"></script>
+<script type="text/javascript">
+	document.onmousewheel = function() {return false;}//禁止鼠标滚动
+	$(document).ready(function(){
+		$("#innerFrame").focus();//3d页面加载获取焦点
+		
+		var userAgent = window.navigator.userAgent.indexOf("MSIE") ;
+		
+		var ieiframe = "../../ieiframe.html";
+		var euroStyle = "http://114.215.180.136/web3d/web3d/loft/watcher.html";//
+		var chinaStyle = "http://www.baidu.com";//
+		
+		if(userAgent > 0){
+			$("#innerFrame").attr("src",ieiframe);
+		}else{
+			$("#innerFrame").attr("src",euroStyle);
+			$(".allscreen").attr({href:euroStyle,target:"_blank"});
+			$(".simpleEuroStyle").bind("click",function(){
+				$(this).addClass("styleSelected").siblings().removeClass("styleSelected");
+				$("#innerFrame").attr("src",euroStyle);
+				$(".allscreen").attr("href",euroStyle);
+			});
+			$(".chineseStyle").bind("click",function(){
+				$(this).addClass("styleSelected").siblings().removeClass("styleSelected");
+				$("#innerFrame").attr("src",chinaStyle);
+				$(".allscreen").attr("href",chinaStyle);
+			});
+		}
+		
+	});
+</script>
+</html>

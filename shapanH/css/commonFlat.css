@@ -1,0 +1,26 @@
+#mainFrame {
+	width:1080px;
+	height:1080px;
+	margin:0 auto;
+}
+#mainFrame2 {
+	position:relative;
+	width:1080px;
+	height:800px;
+	margin:0 auto;
+	background:#38393b;
+}
+#innerFrame {
+	position:relative;
+	width:1000px;
+	height:600px;
+	background:#444444;
+	margin:0 auto;
+	border:0px;
+	cursor:pointer;
+}
+#innerFrame .innerImg {
+	width:800px;
+	height:600px;
+	margin:0 auto;
+}

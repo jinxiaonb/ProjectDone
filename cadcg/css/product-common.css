@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+
+.content{
+	position:relative;
+	margin:0 auto;
+	margin-top:20px;
+	width:1000px;
+	margin-bottom:20px;
+	/*background:url(../images/common/bg.jpg);*/
+}
+.content p{
+	background-color:#f2f2f2; 
+	line-height:40px;
+	font-size:14px; 
+	font-weight:normal;
+	text-align:left;
+	color:#333;
+}
+.content div.video{
+	position:relative;
+	width:720px;
+	height:600px;
+	margin:0 auto;
+	margin-top:20px;
+}
+.content table{
+	font-size:12px;
+	color:#333333;
+}
+.content table tr{
+	line-height:30px;
+}
+.content table tr td{
+	
+}
+.title{
+	height:120px;
+}
+.title img{
+	position:relative;
+	float:right;
+	margin-top:20px;
+	margin-right:200px;
+	height:61px;
+	width:140px;
+}
+.info{
+	position:relative;
+	width:1000px;
+	margin:0 auto;/*
+	background:#ff0000;*/
+}
+.info ul{
+	position:relative;
+	margin:0 auto;
+	width:720px;
+	height:240px;
+	margin-top:60px;
+}
+.info ul li{
+	position:relative;
+	width:120px;
+	height:120px;
+	float:left;
+	background:#ff0000;
+}
+.info ul li a{
+	width:120px;
+	height:120px;
+	display:block;
+}
+.info ul li a img{
+	width:120px;
+	height:120px;
+	display:block;
+}

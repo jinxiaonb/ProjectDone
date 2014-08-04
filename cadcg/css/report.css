@@ -1,0 +1,88 @@
+@charset "utf-8";
+
+.content{
+	position:relative;
+	margin:0 auto;
+	width:1000px;
+	height:1670px;
+	/*background:url(../images/report/report.jpg) no-repeat;*/
+}
+
+.title{
+	height:0px;
+}
+.title img{
+	position:relative;
+	float:right;
+	margin-top:20px;
+	margin-right:200px;
+	height:61px;
+	width:140px;
+}
+
+.info{
+	position:relative;
+	width:1000px;
+	margin:0 auto;
+}
+.info > div{
+	position:relative;
+	float:left;
+	width:330px;
+	margin-top:40px;
+}
+.info > div h3{
+	position:relative;
+	margin-left:90px;
+	color:#e60505;
+	font-size:16px;
+    font-weight:bold;
+	letter-spacing:1px;
+}
+.info label{
+	font-size:15px;
+	font-weight:normal;
+    letter-spacing:0px;
+	font-family:Verdana, Geneva, sans-serif;
+}
+.info ul{
+	position:relative;
+	width:330px;
+	margin-top:15px;
+	margin-left:115px;
+}
+.info ul li{
+	position:relative;
+	list-style:url(../images/common/gray15.png);
+	height:30px;
+	line-height:30px;
+}
+.info ul li a{
+	position:relative;
+	top:-2px;
+	font-size:14px;
+	color:#444444;
+}
+.info ul li a:hover{
+	color:#ff0000;
+}
+
+/*note style*/
+.info div.notes{
+	position:relative;
+	margin-top:45px;
+	margin-left:50px;
+	width:900px;
+	clear:both;
+	font-size:14px;
+}
+.info div.notes h4{
+	position:relative;
+	font-size:15px;
+}
+.info div.notes p{
+	position:relative;
+	text-indent:3em;
+	height:30px;
+	line-height:30px;
+}

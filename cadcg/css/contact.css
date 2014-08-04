@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+.content{
+	position:relative;
+	margin:0 auto;
+	width:1000px;
+	height:560px;
+	background:url(../images/contact/contact.jpg) no-repeat;
+}
+.title{
+	height:120px;
+}
+.title img{
+	position:relative;
+	float:right;
+	margin-top:20px;
+	margin-right:200px;
+	height:61px;
+	width:140px;
+}
+.info{
+	position:relative;
+	width:1000px;
+	margin:0 auto;/*
+	background:#ff0000;*/
+}
+.info img{
+	width:1000px;
+	height:400px;
+}

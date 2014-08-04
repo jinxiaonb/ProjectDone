@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*background color*/
+.bg_red{
+	background:#ff0000;
+}
+.bg_green{
+	background:#00ff00;
+}
+.bg_blue{
+	background:#0000ff;
+}
+.bg_gray{
+	background:#cccccc;
+}
+/*font color*/
+.color_red{
+	color:#ff0000;
+}
+.color_green{
+	color:#00ff00;
+}
+.color_blue{
+	color:#0000ff;
+}
+.color_gray{
+	color:#cccccc;
+}
+.color_white{
+	color:#ffffff;
+}
+.color_333333{
+	color:#333333;
+}
+.color_666666{
+	color:#666666;
+}

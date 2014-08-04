@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+.content{
+	position:relative;
+	margin:0 auto;
+	width:1000px;
+	height:860px;
+	background:url(../images/careers/careers.jpg) no-repeat;
+}
+.title{
+	height:120px;
+}
+.title img{
+	position:relative;
+	float:right;
+	margin-top:20px;
+	margin-right:200px;
+	height:61px;
+	width:140px;
+}
+.info{
+	position:relative;
+	width:1000px;
+	margin:0 auto;/*
+	background:#ff0000;*/
+}
+.info div{
+	position:relative;
+	width:450px;
+	height:220px;
+	float:left;
+	font-size:12px;
+}
+.info div img{
+	width:256px;
+	height:95px;
+}
+.info div ul{
+	position:relative;
+	margin-top:10px;
+}
+.info div ul li{
+	line-height:20px;
+}

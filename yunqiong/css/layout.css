@@ -1,0 +1,236 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+a:link{color:#000000}	/* 未访问的链接 */
+a:visited{color:#000000}/* 已访问的链接 */
+a:hover{color:#000000}	/* 鼠标移动到链接上 */
+a:active{color:#000000}	/* 选定的链接 */
+body{
+	/*font-family:Georgia, "Times New Roman", Times, serif;*/
+}
+h3{
+	height:80px;
+	line-height:80px;
+	padding-left:40px;
+}
+.container{
+	width:1000px;
+	margin:0 auto;
+}
+.header{
+	width:1000px;
+	height:100px;
+}
+.header .logo{
+	float:left;
+}
+.header .quickskip{
+	float:right;
+	margin-top:45px;
+	width:180px;
+	height:40px;
+}
+.header .quickskips{
+	float:right;
+	margin-top:45px;
+	width:106px;
+	height:40px;
+}
+.logo img{
+	width:200px;
+	height:50px;
+	margin-top:40px;
+}
+.quickskip a{
+	height:35px;
+	line-height:35px;
+	text-align:center;
+	display:inline-block;
+	color:#ffffff;
+}
+.quickskips a{
+	height:35px;
+	line-height:35px;
+	text-align:center;
+	display:inline-block;
+	color:#ffffff;
+}
+.quickskip .about{
+	width:86px;
+	background:url(../images/index/button_aboutus0.png) no-repeat;
+}
+.quickskip .about:hover{
+	width:86px;
+	background:url(../images/index/button_aboutus1.png) no-repeat;
+}
+.quickskips .abouts{
+	width:88px;
+	background:url(../images/about/button_homepage.png) no-repeat;
+}
+.quickskips .abouts:hover{
+	width:88px;
+	background:url(../images/about/button_homepage1.png) no-repeat;
+}
+.quickskip .test{
+	width:76px;
+	background:url(../images/index/button_try0.png) no-repeat;
+}
+.quickskip .test:hover{
+	width:76px;
+	background:url(../images/index/button_try1.png) no-repeat;
+}
+.scrollview{
+	width:1000px;
+	height:400px;
+}
+
+.line{
+	width:1000px;
+	height:23px;
+	background:url(../images/index/separator.png);
+}
+.spance_40{
+	width:1000px;
+	height:40px;
+}
+.support ul{
+	width:600px;
+	height:180px;
+	margin:0 auto;
+}
+.support ul li{
+	float:left;
+	width:100px;
+	height:140px;
+	margin-left:50px;
+	margin-right:50px;
+}
+.support ul li img{
+	width:100px;
+	height:140px;
+}
+.team{
+}
+.team ul{
+	width:800px;
+	height:240px;
+	margin:0 auto;
+}
+.team ul li{
+	float:left;
+	width:125px;
+	height:200px;
+	margin-left:75px;
+	margin-right:64px;
+}
+.team ul li img{
+	width:116px;
+	height:120px;
+}
+.team ul li span{
+	position:relative;
+	display:inline-block;
+	margin-top:10px;
+	line-height:18px;
+}
+.intro{
+	height:1400px;
+}
+.intro .entry{
+	width:500px;
+	height:320px;
+	float:left;
+}
+.entry img{
+	width:340px;
+	height:170px;
+	margin-left:80px;
+}
+.entry p{
+	height:50px;
+	line-height:50px;
+	text-align:center;
+	font-size:24px;
+	font-family:"微软雅黑";
+	color:#666666;
+}
+.entry span{
+	width:400px;
+	text-indent:2em;
+	display:inline-block;
+	margin-left:40px;
+	font-family:"宋体";
+	color:#999999;
+	line-height:30px;
+}
+.position{
+	width:517px;
+	height:330px;
+	margin:0 auto;
+}
+.position img{
+	width:517px;
+	height:330px;
+}
+.spirit{
+	width:600px;
+	height:202px;
+	margin:40px auto;
+}
+.spirit img{
+	width:600px;
+	height:202px;
+}
+.price{
+	width:430px;
+	height:400px;
+	margin:40px auto;
+}
+.price img{
+	width:430px;
+	height:400px;
+}
+.company{
+	width:1000px;
+	height:250px;
+}
+.partner{
+	width:900px;
+	height:120px;
+	margin:0 auto;
+}
+.partner div{
+	float:left;
+}
+.anyClass ul li{
+	width:180px;
+	height:112px;
+	margin-left:10px;
+	margin-right:10px;
+}
+.anyClass ul li img{
+	width:180px;
+	height:112px;
+	border:0px;
+}
+.partner div.prev img{
+	margin-top:30px;
+}
+.partner div.next img{
+	margin-top:30px;
+}
+.footer{
+	width:1000px;
+	height:100px;
+}
+.remark{
+	float:right;
+	margin-top:25px;
+}

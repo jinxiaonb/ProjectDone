@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+.content{
+	position:relative;
+	margin:0 auto;
+	width:1000px;
+	height:560px;
+	background:url(../images/solution/solution.jpg) no-repeat;
+}
+.title{
+	height:120px;
+}
+.title img{
+	position:relative;
+	float:right;
+	margin-top:20px;
+	margin-right:200px;
+	height:61px;
+	width:140px;
+}
+.info{
+	position:relative;
+	width:1000px;
+	margin:0 auto;
+}
+.info > div{
+	position:relative;
+	float:left;
+	width:300px;
+}
+.info div > img{
+	position:relative;
+	margin-top:20px;
+	width:250px;
+	height:160px;
+}
+.info div.media img{
+	margin-left:25px;
+}
+.info div.manufacture img{
+	margin-left:75px;
+}
+.info div.security img{
+	margin-left:125px;
+}
+.info ul{
+	position:relative;
+	width:140px;
+	margin-left:70px;
+	top:20px;
+}
+.info div.media ul{
+	margin-left:110px;
+}
+.info div.manufacture ul{
+	margin-left:160px;
+}
+.info div.security ul{
+	margin-left:210px;
+}
+.info ul li{
+	position:relative;
+	list-style:url(../images/common/gray15.png);
+	height:30px;
+	line-height:30px;
+}
+.info ul li a{
+	position:relative;
+	top:-2px;
+	font-size:16px;
+	letter-spacing:1px;
+	color:#444444;
+	margin-left:10px;
+}
+.info ul li a:hover{
+	color:#ff0000;
+}
