@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.clouddemo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme" >
+        <activity
+            android:name="com.example.clouddemo.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.clouddemo.SQLiteActivity"
+            android:label="@string/title_activity_sqlite" >
+        </activity>
+        <activity
+            android:name="com.example.clouddemo.SearchActivity"
+            android:label="@string/title_activity_search" >
+        </activity>
+        <activity
+            android:name="com.example.clouddemo.AddressActivity"
+            android:label="@string/title_activity_address" >
+        </activity>
+        <activity
+            android:name="com.example.clouddemo.IndexActivity"
+            android:label="@string/title_activity_index" >
+        </activity>
+        <activity
+            android:name="com.example.clouddemo.FirstActivity"
+            android:label="@string/title_activity_first" >
+        </activity>
+        <activity
+            android:name="com.example.clouddemo.SecondActivity"
+            android:label="@string/title_activity_second" >
+        </activity>
+        <activity
+            android:name="com.example.clouddemo.FourActivity"
+            android:label="@string/title_activity_four" >
+        </activity>
+        <activity
+            android:name="com.example.clouddemo.ThirdActivity"
+            android:label="@string/title_activity_third" >
+        </activity>
+    </application>
+
+</manifest>

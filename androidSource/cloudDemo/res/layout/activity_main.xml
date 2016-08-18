@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <Button
+        android:id="@+id/sqlOperation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="skip to sql"/>
+    
+    <Button
+        android:id="@+id/searchOperation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="skip to search"/>
+    
+    <Button
+        android:id="@+id/skipToIndex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="skip to index"/>
+    
+    <LinearLayout
+        android:id="@+id/focuslayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="horizontal">
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/mainheader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher"
+            android:contentDescription="@string/app_name"/>
+        
+        <EditText 
+	        android:id="@+id/editText"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:hint="@string/editText" />
+        <TextView 
+            android:id="@+id/address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/address"/>
+    </LinearLayout>
+    
+</LinearLayout>
+
